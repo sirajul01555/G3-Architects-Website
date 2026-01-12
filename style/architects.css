@@ -123,6 +123,36 @@ main >section{
     color: #FF900E;
 }
 
+/* some fact cadr style */
+.fact-container{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+}
+
+.fact-card{
+    border: 1px solid orange;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.fact-number{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.fact-name{
+    font-size: 1.29rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.fact-description{
+    max-width: 540px;
+}
 /* responsive quary request*/
 @media screen and (max-width:576) {
 
